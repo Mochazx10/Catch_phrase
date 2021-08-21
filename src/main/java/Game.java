@@ -16,9 +16,10 @@ public class Game {
         System.out.println("2: Occupation");
         System.out.println("3: Celebrity");
         System.out.println("4: Exit");
-        System.out.println("-------------------------");
+        System.out.println("Enter a category number:");
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
+        System.out.println("-------------------------");
         boolean outOfGuesses = false;
         String guessWord = "";
         String guess = input.nextLine();
